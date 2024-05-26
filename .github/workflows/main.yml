@@ -49,4 +49,3 @@ jobs:
           --platform managed \
           --region ${{ secrets.GCP_REGION }} \
           --allow-unauthenticated
-          --port=3000
