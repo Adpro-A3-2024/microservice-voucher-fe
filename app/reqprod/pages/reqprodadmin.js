@@ -12,7 +12,7 @@ const ReqProdAdmin = () => {
 
   const fetchRequestProducts = async () => {
     try {
-      const response = await axios.get('http://localhost:8080/api/request-product');
+      const response = await axios.get('http://34.101.74.42/api/request-product');
       setRequestProducts(response.data);
       setLoading(false);
     } catch (error) {
@@ -42,7 +42,7 @@ const ReqProdAdmin = () => {
 
     const deleteProduct = async (id) => {
         try {
-          await axios.delete(`http://localhost:8080/api/request-product/${id}`);
+          await axios.delete(`http://34.101.74.42/api/request-product/${id}`);
           setProducts(products.filter((product) => product.id !== id));
         } catch (error) {
           console.error('Error deleting product:', error);
