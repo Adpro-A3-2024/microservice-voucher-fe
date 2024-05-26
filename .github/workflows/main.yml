@@ -45,7 +45,7 @@ jobs:
     - name: Deploy to Cloud Run
       run: |
         gcloud run deploy frontend \
-          --image asia-southeast2-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/fe:$GITHUB_SHA \
+          --image asia-southeast2-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/fe/$GITHUB_SHA \
           --platform managed \
           --region ${{ secrets.GCP_REGION }} \
           --allow-unauthenticated
