@@ -12,7 +12,7 @@ const DeleteVoucher = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.delete(`http://localhost:8080/api/vouchers/${voucherId}`, {
+      const response = await axios.delete(`https://microservice-voucher-hamcgyi6oq-et.a.run.app/api/vouchers/${voucherId}`, {
         headers: {
           'Accept': 'application/json'
         }

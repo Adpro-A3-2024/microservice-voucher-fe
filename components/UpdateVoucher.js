@@ -31,7 +31,7 @@ const UpdateVoucher = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.put(`http://localhost:8080/api/vouchers/${voucherId}`, voucher, {
+      const response = await axios.put(`https://microservice-voucher-hamcgyi6oq-et.a.run.app/api/vouchers/${voucherId}`, voucher, {
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json'

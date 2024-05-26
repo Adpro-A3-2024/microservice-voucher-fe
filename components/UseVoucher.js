@@ -14,7 +14,7 @@ const UseVoucher = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:8080/api/vouchers/use', { userId, voucherId, cartTotal }, {
+      const response = await axios.post('https://microservice-voucher-hamcgyi6oq-et.a.run.app/api/vouchers/use', { userId, voucherId, cartTotal }, {
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json'

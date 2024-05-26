@@ -11,7 +11,7 @@ const ViewAllVouchers = () => {
   useEffect(() => {
     const fetchVouchers = async () => {
       try {
-        const response = await axios.get('http://localhost:8080/api/vouchers', {
+        const response = await axios.get('https://microservice-voucher-hamcgyi6oq-et.a.run.app/api/vouchers', {
           headers: {
             'Accept': 'application/json'
           }

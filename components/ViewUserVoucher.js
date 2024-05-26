@@ -15,7 +15,7 @@ const ViewUserVouchers = () => {
 
   const fetchVouchers = async () => {
     try {
-      const response = await axios.get(`http://localhost:8080/api/vouchers/user/${userId}`, {
+      const response = await axios.get(`https://microservice-voucher-hamcgyi6oq-et.a.run.app/api/vouchers/user/${userId}`, {
         headers: {
           'Accept': 'application/json'
         }
