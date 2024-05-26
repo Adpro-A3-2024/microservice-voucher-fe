@@ -1,0 +1,69 @@
+/* CreateOrderPage.module.css */
+.container {
+    padding: 20px;
+  }
+  
+  .product {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .buttonAdd {
+    background: #0070f3;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buttonAdd:hover {
+    background: #005bb5;
+  }
+  
+  .buttonRemove {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .buttonRemove:hover {
+    background: #cc0000;
+  }
+  
+  .buttonSubmit {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .buttonSubmit:hover {
+    background: #218838;
+  }
+  
+  .message {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
